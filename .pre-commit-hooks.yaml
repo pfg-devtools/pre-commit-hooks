@@ -1,0 +1,10 @@
+- id: no-tabs
+  name: no tabs
+  entry: python hooks/no_tab.py
+  language: python
+  types: [text]
+- id: no-aws-key
+  name: block AKIA prefixes
+  entry: python hooks/no_aws_key.py
+  language: python
+  types: [text]

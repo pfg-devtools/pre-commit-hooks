@@ -1,0 +1,6 @@
+[project]
+name = "pfg-pre-commit-hooks"
+version = "0.2.0"
+requires-python = ">=3.11"
+[tool.pytest.ini_options]
+testpaths = ["tests"]
